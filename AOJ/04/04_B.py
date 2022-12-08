@@ -1,2 +1,3 @@
+import math
 r = float(input())
-print(f"{r ** 2 * 3.141592653589:.6f} {2 * r * 3.141592653589:.6f}")
+print(f"{r ** 2 * math.pi:.6f} {2 * r * math.pi:.6f}")
