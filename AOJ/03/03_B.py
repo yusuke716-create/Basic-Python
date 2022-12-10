@@ -4,4 +4,4 @@ while True:
     if x == 0:
         break
     print("Case " + str(i) + ": " + str(x))
-    i = i + 1
+    i += 1
